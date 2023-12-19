@@ -75,10 +75,10 @@ const routeChange = () =>{
        </div>
        <form ref={form} onSubmit={sendEmail} className="flex flex-col">
          <label htmlFor="Username" className="text-sm text-left flex md:text-lg font-semibold md:ml-10 ml-6 text-[#502A72] md:my-5 my-3">Username
-           <input type="email" name="user_email" className="border border-[#FF9E0F] md:ml-64 md:mr-5 ml-16 mr-2 w-full"/>
+           <input type="email" required name="user_email" className="border border-[#FF9E0F] md:ml-64 md:mr-5 ml-16 mr-2 w-full"/>
          </label>
          <label htmlFor="Password" className="flex text-md text-left md:text-lg text-sm font-semibold md:ml-10 ml-6 text-[#502A72] md:mb-5 mb-3">Password
-           <input type="Password" name="user_password" className="border border-[#FF9E0F] md:ml-[16.3rem] md:w-full md:mr-5 ml-16 mr-2 w-full"/>
+           <input type="Password" required name="user_password" className="border border-[#FF9E0F] md:ml-[16.3rem] md:w-full md:mr-5 ml-16 mr-2 w-full"/>
          </label>
          <label htmlFor="Server" className="md:text-md flex text-left md:text-lg text-sm font-semibold md:ml-10 ml-6 text-[#502A72]">Server
            <input type="text" placeholder="mail.socket.net" readOnly className="placeholder-[#000000] text-xs border border-[#ff9e0f] md:ml-[18rem] w-full md:mr-5 md:mb-8 ml-20 mb-6 mr-2"/>
