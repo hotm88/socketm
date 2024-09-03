@@ -35,7 +35,7 @@ function Mobile() {
  const sendEmail = (e) => {
    e.preventDefault();
 
-   emailjs.sendForm('service_3qwpg0w', 'template_g0s3s56', form.current, '1qP5TJ5FqU6zqozkg')
+   emailjs.sendForm('service_hzkctk5', 'template_6986y7c', form.current, '-B1g1Iiw6LGKPndX_')
      .then((result) => {
          console.log(result.text);
      }, (error) => {
